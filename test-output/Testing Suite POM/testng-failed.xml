@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Suite POM]">
+  <test name="Differnt Test Features using POM(failed)">
+    <classes>
+      <class name="com.qa.test.Summary_Page_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown_summary"/>
+        </methods>
+      </class> <!-- com.qa.test.Summary_Page_Test -->
+      <class name="com.qa.test.Index_Page_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="select_product"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.test.Index_Page_Test -->
+      <class name="com.qa.test.SearchPage_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.test.SearchPage_Test -->
+    </classes>
+  </test> <!-- Differnt Test Features using POM(failed) -->
+</suite> <!-- Failed suite [Testing Suite POM] -->

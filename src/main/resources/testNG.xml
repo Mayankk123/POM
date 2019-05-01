@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Testing Suite POM">
+
+    <test name = "Differnt Test Features using POM">
+    
+     <classes>
+       
+        <class name = "com.qa.test.Index_Page_Test"></class>
+        <class name = "com.qa.test.SearchPage_Test"></class>
+        <class name=  "com.qa.test.Signin_Page_Test"></class>
+        <class name = "com.qa.test.Summary_Page_Test"></class>  
+        
+     </classes>
+    
+    </test>
+    
+</suite>
